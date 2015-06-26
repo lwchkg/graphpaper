@@ -4,9 +4,9 @@ A vb.net program that creates rectangular and isometric graph papers in EMF form
 
 ## Using the program
 
-1. Download the binary
+1. Download the binary.
 
-1. Unzip the file
+1. Unzip the file.
 
 1. Open GraphPaper.exe (.NET Framework 4 required. You can download .NET Framework 4 [here](https://www.microsoft.com/download/details.aspx?id=17718).)
 
