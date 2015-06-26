@@ -20,4 +20,4 @@ A vb.net program that creates rectangular and isometric graph papers in EMF form
 
 ## Similar programs
 
-[Graph Paper Printer](http://www.snapfiles.com/get/graphpp.html){:target="_blank"}
+[Graph Paper Printer](http://www.snapfiles.com/get/graphpp.html)
