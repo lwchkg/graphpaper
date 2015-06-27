@@ -26,13 +26,13 @@ Public Class IsoLineGrid
         Dim j, st As Single
         Dim l As Integer
 
-        Dim pen1 As Pen = New Pen(colorMajor, lineWidthMajor)
-
         Dim c As Single = grfx.DpiX / 25.4
 
-        For i = 1 To Size.Width - 1     '0 To Size.Width
+        Dim pen1 As Pen = New Pen(colorMajor, c * lineWidthMajor)
+
+        For i = 1 To size.Width - 1     '0 To Size.Width
             j = c * i * s60 * intervalWidth
-            l = Size.Height     ' - i Mod 2
+            l = size.Height     ' - i Mod 2
             st = 0              '(i Mod 2) / 2
             grfx.DrawLine(pen1, j, c * st * intervalWidth, j, c * (st + l) * intervalWidth)
         Next
