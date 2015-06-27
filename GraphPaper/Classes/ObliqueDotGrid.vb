@@ -10,7 +10,7 @@ Public Class ObliqueDotGrid
     <BrowsableAttribute(False)> Overrides Property numDotsMinor As Integer
     <BrowsableAttribute(False)> Overrides Property lineWidthMinor As Single
 
-    Overrides Property size As Size
+    Overrides Property Size As Size
     <DefaultValueAttribute(7.0F)> Overrides Property intervalWidth As Single = 7
     <DefaultValueAttribute(8), DescriptionAttribute("Number of dots in a horizontal or vertical interval.")>
     Overrides Property numDotsMajor As Integer = 8

@@ -9,7 +9,7 @@ Public Class ObliqueLineGrid
     <BrowsableAttribute(False)> Overrides Property colorMinor As Color
     <BrowsableAttribute(False)> Overrides Property lineWidthMinor As Single
 
-    Overrides Property size As Size
+    Overrides Property Size As Size
     <DefaultValueAttribute(7.0F)> Overrides Property intervalWidth As Single = 7
 
     Public Overrides Function plot(fstream As System.IO.Stream) As Metafile

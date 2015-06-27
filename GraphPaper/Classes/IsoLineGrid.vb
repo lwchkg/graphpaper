@@ -9,7 +9,7 @@ Public Class IsoLineGrid
     <BrowsableAttribute(False)> Overrides Property colorMinor As Color
     <BrowsableAttribute(False)> Overrides Property lineWidthMinor As Single
 
-    Overrides Property size As Size
+    Overrides Property Size As Size
     <DefaultValueAttribute(7.0F)> Overrides Property intervalWidth As Single = 7
 
     Public Overrides Function plot(fstream As System.IO.Stream) As Metafile
@@ -30,9 +30,9 @@ Public Class IsoLineGrid
 
         Dim pen1 As Pen = New Pen(colorMajor, c * lineWidthMajor)
 
-        For i = 1 To size.Width - 1     '0 To Size.Width
+        For i = 1 To Size.Width - 1     '0 To Size.Width
             j = c * i * s60 * intervalWidth
-            l = size.Height     ' - i Mod 2
+            l = Size.Height     ' - i Mod 2
             st = 0              '(i Mod 2) / 2
             grfx.DrawLine(pen1, j, c * st * intervalWidth, j, c * (st + l) * intervalWidth)
         Next
