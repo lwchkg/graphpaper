@@ -30,4 +30,4 @@ The samples above are the “line” version of the papers. There is another “
 
 ## Similar programs
 
-[Graph Paper Printer](http://www.snapfiles.com/get/graphpp.html){:target="_blank"}
+[Graph Paper Printer](http://www.snapfiles.com/get/graphpp.html)
